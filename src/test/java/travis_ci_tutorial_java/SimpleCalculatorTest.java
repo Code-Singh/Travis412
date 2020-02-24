@@ -1,14 +1,13 @@
 package travis_ci_tutorial_java;
 
-import java.util.*;
+import org.junit.Test;
 
-import static org.junit.Assert.*;
-import org.junit.*;
+import static org.junit.Assert.assertEquals;
 
 public class SimpleCalculatorTest {
 	@Test
 	public void testAdd() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.add(1, 1), 2);
+		assertEquals(calc.add(1, 1), 0);
 	}
 }
