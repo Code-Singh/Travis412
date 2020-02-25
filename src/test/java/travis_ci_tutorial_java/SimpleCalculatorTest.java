@@ -20,6 +20,6 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testMultiply() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.mutiply(2, 5), 10);
+		assertEquals(calc.multiply(2, 5), 10);
 	}
 }
